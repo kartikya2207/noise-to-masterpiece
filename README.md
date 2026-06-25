@@ -6,6 +6,17 @@ pre-built pipelines or wrappers. Every component written and trained by hand.
 **Mid-term status:** Phase 1 (the Variational Autoencoder) complete through Week 4. The VAE loss, a 2D
 proof-of-concept, and a convolutional VAE on MNIST are all implemented, trained, and verified.
 
+> **📓 Viewing the notebooks — read this.** GitHub's in-browser preview cannot render the larger notebooks
+> (the Week-4 notebook embeds all of its output figures and is ~1 MB, over GitHub's render limit — you'll see
+> *"Unable to render code block"*). View them **fully rendered, with every plot**, on nbviewer:
+>
+> - **[▶ Open all notebooks (nbviewer)](https://nbviewer.org/github/kartikya2207/noise-to-masterpiece/tree/main/notebooks/)**
+> - Week 4 — Conv VAE on MNIST: [nbviewer](https://nbviewer.org/github/kartikya2207/noise-to-masterpiece/blob/main/notebooks/Week4_ConvVAE_MNIST.ipynb)
+> - Week 3 — Milestone 1 (2D VAE): [nbviewer](https://nbviewer.org/github/kartikya2207/noise-to-masterpiece/blob/main/notebooks/Week3_Milestone1_VAE_2D.ipynb)
+> - Week 2 — VAE loss from scratch: [nbviewer](https://nbviewer.org/github/kartikya2207/noise-to-masterpiece/blob/main/notebooks/Week2_VAE_Loss.ipynb)
+>
+> (Or open any notebook directly in Google Colab — they all run top-to-bottom.)
+
 ---
 
 ## Progress (Weeks 0–4)
@@ -53,6 +64,8 @@ For a local run:
 pip install -r requirements.txt
 jupyter notebook
 ```
+
+To view the rendered notebooks (with figures) without running them, use the **nbviewer links at the top**.
 
 ## Roadmap
 
