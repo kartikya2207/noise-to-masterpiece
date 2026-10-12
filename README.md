@@ -51,6 +51,21 @@ the project leans on: Gaussians, Bayes' rule, KL divergence.
   reconstructions, a test-set latent map coloured by digit, the 20×20 manifold grid of digits
   morphing into each other, and 64 digits generated from pure noise.
 
+<p align="center">
+  <img src="docs/images/week4_latent_manifold.png" alt="Latent manifold grid" width="45%">
+  <img src="docs/images/week4_generated_digits.png" alt="Generated digits" width="45%">
+</p>
+
+*Left: digits decoded across the 2D latent space (20×20 manifold grid). Right: 64 digits sampled from `N(0, I)`.*
+
+![Original vs reconstruction](docs/images/week4_reconstructions.png)
+
+*Test images (top) and their ConvVAE reconstructions (bottom) — blurry by design with a 2D latent.*
+
+![Latent map of the test set](docs/images/week4_latent_map.png)
+
+*Encoder means for the MNIST test set, coloured by digit.*
+
 ## What I learnt
 
 - **Verify the math before trusting the model.** Checking my KL against `torch.distributions` and
